@@ -1,6 +1,7 @@
 Whack A Mole! Play [here](https://just-whack-the-mole.netlify.app/)
 
 Whack A Mole! is a simple, fun, and interactive web-based game where players try to "whack" as many moles as possible. Moles randomly appear in different holes, and the player's goal is to click on them before they disappear. The game is built using HTML, CSS, and JavaScript.
+
 Features:
     Random Mole Appearance: Moles appear in different holes at random intervals.
     Score Tracking: Players earn points for each successful "whack."
