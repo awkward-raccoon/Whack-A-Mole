@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url("./mario-bg.jpg");
+    background-size: cover;
+}
+
+#board {
+    width: 540px;
+    height: 540px;
+    /* background-color: green; */
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: url("./soil.png");
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+
+}
+
+#board div {
+    width: 180px;
+    height: 180px;
+    background: url("./pipe.png");
+    background-size: cover;
+
+}
+
+#board div img {
+    width: 100px;
+    height: 100px;
+    /* All image tags inside the tile divs */
+
+    /* Make the image un draggle or selectable */
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#play-again {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 26px;
+    color: white;
+    background-color: #00712D; /* Green background */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#play-again:hover {
+    background-color: #00712D; 
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+#play-again:active {
+    background-color: #1e7e34; /* Even darker green when clicked */
+    transform: scale(0.98); /* Slightly shrink when clicked */
+}
